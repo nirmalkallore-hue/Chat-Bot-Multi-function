@@ -1,3 +1,5 @@
+import streamlit as st
+
 user_input = st.text_input("Ask something")
 
 if user_input:
