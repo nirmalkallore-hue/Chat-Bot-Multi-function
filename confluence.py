@@ -1,3 +1,4 @@
+user_input = st.text_input("Ask something")
 
 if user_input:
     st.session_state.chat_history.append(f"You: {user_input}")
